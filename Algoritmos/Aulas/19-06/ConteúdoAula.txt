@@ -1,0 +1,68 @@
+====== ALG1 =============
+float v[10];
+int i, n = 10;
+for (i = 0; i < n; i++){
+	printf ("Digite o %dº nº: ", i+1);
+	scanf("%f", &v[i];
+}
+for (i = n-1; i >= 0; i--){
+	printf("%f\n", v[i]);
+}
+
+==========================
+
+Alg2
+
+int a[6], b[6], c[6];
+int i, n=6;
+for (i=0; i<n; i++){
+	printf("A[%d] = , i);
+	scanf("%d", &a[i]);
+}
+for (i=0; i<n; i++){
+	printf("B[%d] = ", i);
+	scanf("%d", &b[i]);
+}
+for (i=0; i<n; i++){
+	r[i] = a[i]*b[i];
+}
+for(i=0; i<n; i++){
+	printf("%d\n", r[i]);
+}
+
+===========================
+
+Alg3
+
+int v[100];
+int n, i;
+printf("Quantos termos?");
+scanf("%d", &n);
+v[0]=1;
+v[1]=1;
+for(i=2; i<n; i++){
+	v[i] = v[i-1] + v[i-2];
+}
+for (i=0; i<n; i++){
+	printf("%dº: %d\n", i+1, v[i];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

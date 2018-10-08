@@ -1,0 +1,49 @@
+-> Vetores com mais de 1 dimensão:
+
+=================================
+
+Alg1
+
+int i, j, matriz[4][3];
+	for (i=0; i<4; i++){
+		for(j=0; j<3; j++){
+			printf("M[%d][%d]", i, j);
+			scanf("%d", &matriz[i][j]);
+		}
+	}	
+	for(i=0; i<4; i++){
+		for(j=0; j<3; j++){
+			printf("%d", matriz[i][j]);
+		}
+		printf("\n");
+	}
+	
+	
+=================================
+
+Alg2
+
+int m[5][5], i, j;
+	for(i=0; i<5; i++){
+		for(j=0; i<5; j++){
+			printf("M[%d, %d] = ", i, j);
+			scanf("%d", m[i][j]);
+		}
+	}
+	printf("Diagonal Principal:\n");	
+	for(i=0; i<5; i++){						OU for(i=0; i<5; i++)+
+		for(j=0; j<5; j++){							printf("%d\n", m[i][j]);
+			if(i==j){								}
+				printf("%d\n", m[i][j]);
+			}
+		}
+	}
+	printf("Diagonal Secundária");			OU for(i=0; i<5; i++){						OU		J=4;
+	for(i=0; i<5; i++){								printf("%d\n", m[i][j]);					for(i=0; i<5; i++){
+		for(j=0; j<5; j++){						}													printf("%d\n", m[i][j]);
+			if(i+j == 4){																			j--;
+			printf("%d\n", m[i][j]);															}
+		}
+	}
+	
+
