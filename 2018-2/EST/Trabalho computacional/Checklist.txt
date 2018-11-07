@@ -1,0 +1,17 @@
+	- Com o comando de "Aletoriamente" do Excel, criar uma amostra de 100 entrevistados - OK
+	- Selecione uma variável qualitativa e demonstre o resultado graficamente - OK
+	
+	- escolha uma variável qualitativa discreta - ANOS - OK
+	- escolha uma variável qualitativa contínua - GASTO - OK
+	
+	- Analisar matematicamente a variável ANOS - OK
+	- Criar bloxpot da variável ANOS - OK
+	- Criar histograma da variável ANOS - OK
+	
+	- Analisar matematicamente a variável GASTO - OK
+	- Criar bloxpot da variável GASTO - OK 
+	- Criar histograma da variável GASTO - OK 
+	
+	- Resultados devem ser apresentados em um arquivo word ou pdf - OK
+	- Enviar a planilha utilizada para desenvolver os cálculos por anexo - OK
+	- Os comandos no RStudio devem ser copiados no relatório ou demonstrados através de print's de tela - OK
