@@ -1,0 +1,4 @@
+Paçoca 1,50
+pão 22,50
+batata 7,99
+cigarro 10
